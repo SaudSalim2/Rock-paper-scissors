@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        	Console.WriteLine("Made by Saud");
+          
+            Console.WriteLine("What is your name");
+            string player = Console.ReadLine();
+            Console.WriteLine(player +" Choose rock paper or scissor");
+           
+            
+            string gb = Console.ReadLine();
+         
+          
+           
+           //input
+           
+            if (gb == "paper")
+             Console.WriteLine(player + " lose  computer  choose Scissor");
+ 
+          else if (gb == "rock")
+             Console.WriteLine(player + " lose computer choose paper");
+            
+            
+        else   if (gb == "scissor")
+             Console.WriteLine(player + " win computer choose paper");
+                 
+          
+      int i = 1   ;      
+     while (i <= 1) {
+     	Console.WriteLine("____________________________________________________________________________________");
+     
+Console.WriteLine(player+" Do you want to play again(press enter):");
+         Console.ReadLine();
+             Console.WriteLine(player +" Choose rock paper or scissor");
+ Console.ReadLine();
+ 
+ if (gb == "paper")
+             Console.WriteLine(player + " lose computer choose scissor");
+             
+             else if (gb == "rock")
+             Console.WriteLine(player + " lose computer choose paper");
+            
+ else   if (gb == "scissor")
+             Console.WriteLine(player + " win computer choose paper");
+        };
+                    }
+
+                }
+
+          
+}
+    
+
+
+        
+    
+    
+
+       
+        
+    
